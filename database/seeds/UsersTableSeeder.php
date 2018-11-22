@@ -14,16 +14,16 @@ class UsersTableSeeder extends Seeder
     {
     	// Admin
         User::create([
-        	'name' => 'Katheryn Quiroz Carrillo',
-        	'email' => 'kathy_sistemas@gmail.com',
+        	'name' => 'Ariadna Valdivia',
+        	'email' => 'ariadna@gmail.com',
         	'password' => bcrypt('kathy'),
         	'role' => 0
         ]);
 
         // Client
         User::create([
-        	'name' => 'Jairo Gil Tesen',
-        	'email' => 'jairo@gmail.com',
+        	'name' => 'Antonio Jiménez',
+        	'email' => 'antonio@gmail.com',
         	'password' => bcrypt('jairo'),
         	'role' => 2
         ]);
